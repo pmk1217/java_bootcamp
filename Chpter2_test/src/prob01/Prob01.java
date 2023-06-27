@@ -10,6 +10,8 @@ public class Prob01 {
 
 		/* 코드 작성 */
 		
+		/* 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 */
+		
 		scanner.close();
  	}
 }

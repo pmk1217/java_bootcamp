@@ -12,7 +12,11 @@ public class Prob04 {
 	public static char[] reverse(String str) {
 		char[] result = str.toCharArray();
 		
-		/* 코드를 완성합니다 */
+		for(int i = result.length; i <= 0; i--) {
+			int a = 0;
+			result[a] = str.charAt(i);
+			a++;
+		}
 		
 		return result;
 	}
